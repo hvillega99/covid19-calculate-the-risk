@@ -3,7 +3,14 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Body from './components/landingPage/Body';
 import ScreenNews from './components/news/screenNews';
+import BodyPrecauciones from './components/recomendacionesPage/body'
 export default function App() {
+  return (
+    <BodyPrecauciones/>
+  );
+  }
+
+/*export default function App() {
   return (
     <View>
       <ScreenNews />
@@ -11,4 +18,4 @@ export default function App() {
       <StatusBar style="auto" />
     </View>
   );
-}
+}*/

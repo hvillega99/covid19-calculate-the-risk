@@ -1,25 +1,29 @@
 import React from "react";
-import { View , Image, Text , StyleSheet} from "react-native";
+import { View , Image, Text , StyleSheet , TouchableHighlight} from "react-native";
 import { borderRadius, justifyContent, margin } from "styled-system";
 
 const Card = ({datos}) => {
     
     return(
-        <View style={styles.card}>
-            <View style={styles.icono}>
-                <Image
-                    source={require(`../../assets/img/${datos.imagen}`)}
-                />
+        <TouchableHighlight>
+            <View style={styles.card}>
+                <View >
+                    <Image
+                        source={require(`../../assets/img/${datos.imagen}`)}
+                        style={styles.icono}
+                    />
+                </View>
+                <View style={styles.text}>
+                    <Text style={styles.textTitle}>
+                        {datos.titulo}
+                    </Text>
+                    <Text style={styles.textDescription}>
+                        {datos.descripcion}
+                    </Text>
+                </View>
             </View>
-            <View style={styles.text}>
-                <Text style={styles.textTitle}>
-                    {datos.titulo}
-                </Text>
-                <Text style={styles.textDescription}>
-                    {datos.descripcion}
-                </Text>
-            </View>
-        </View>
+        </TouchableHighlight>
+        
     );
 }
 
@@ -43,7 +47,6 @@ const styles = StyleSheet.create({
         width: '42px',
         height: '42px',
         borderRadius: 21,
-        backgroundColor: '#30DB80'
     },
     textTitle:{
         fontSize: 18,
