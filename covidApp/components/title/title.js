@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Dimensions, Text, StyleSheet } from "react-native";
 
 const Title = ({title}) => {
 
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 
     titleContainer: {
         backgroundColor: "#29AEF2",
-        width: "417px",
+        width: Dimensions.get('window').width-1,
         height: "75px"
     },
 
