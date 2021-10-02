@@ -25,11 +25,11 @@ const styles = StyleSheet.create({
     titleContainer: {
         backgroundColor: "#29AEF2",
         width: "417px",
-        height: "97px"
+        height: "75px"
     },
 
     titleText: {
-        fontSize: 22,
+        fontSize: 28,
         color: "#fff"
     }
 
