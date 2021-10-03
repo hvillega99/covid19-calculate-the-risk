@@ -52,10 +52,10 @@ const styles = StyleSheet.create({
         borderRadius: 21,
     },
     textTitle:{
-        fontSize: 18,
+        fontSize: windowWidth/22,
     },
     textDescription:{
-        fontSize: 14
+        fontSize: windowWidth/29
     },
     text:{
         width:  (windowWidth/1.16) - ((windowWidth/1.16)/3.61),
