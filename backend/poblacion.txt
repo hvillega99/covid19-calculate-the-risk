@@ -1,0 +1,194 @@
+China: 1 404 959 000
+India: 1 398 496 000
+Estados Unidos: 330 641 000
+Indonesia: 269 856 000
+Pakistán: 222 017 000
+Brasil: 210 688 000
+Nigeria: 209 058 000
+Bangladés: 179 904 000
+Rusia: 146 710 000
+México: 127 187 000
+Japón: 126 127 000
+Filipinas: 108 879 000
+Egipto: 100 027 000
+Etiopía: 99 773 000
+Vietnam: 97 038 000
+República Democrática del Congo: 88 143 000
+Irán: 83 375 000
+Alemania: 83 241 000
+Turquía: 83 215 000
+Tailandia: 68 113 000
+Reino Unido: 67 036 000
+Francia: 64 927 000
+Italia: 60 316 000
+Sudáfrica: 59 263 000
+Tanzania: 56 796 000
+Myanmar/Birmania: 54 339 766
+Corea del Sur: 51 886 000
+Colombia: 48 922 000
+Kenia: 47 899 000
+España: 47 195 000
+Argentina: 45 167 000
+Sudán: 43 859 000
+Argelia: 43 825 000
+Ucrania: 41 909 000
+Uganda: 40 617 000
+Irak: 39 413 000
+Polonia: 38 391 000
+Canadá: 37 802 000
+Marruecos: 35 601 000
+Arabia Saudita: 34 631 000
+Uzbekistán: 33 835 000
+Malasia: 33 210 000
+Afganistán: 32 593 000
+Venezuela: 32 423 000
+Perú: 32 313 000
+Angola: 30 645 000
+Ghana: 30 624 000
+Nepal: 29 811 000
+Yemen: 29 431 000
+Mozambique: 28 972 000
+Madagascar: 26 957 000
+Costa de Marfil: 26 154 000
+Australia: 25 578 000
+Corea del Norte: 25 517 000
+Camerún: 24 649 000
+Níger: 22 755 000
+Sri Lanka: 21 870 000
+Burkina Faso: 21 206 000
+Malí: 20 288 000
+Rumanía: 19 293 000
+Chile: 19 241 000
+Kazajistán: 18 638 000
+Malaui: 18 249 000
+Zambia: 17 636 000
+Siria: 17 514 000
+Ecuador: 17 405 000
+Países Bajos: 17 384 000
+Guatemala: 16 921 000
+Senegal: 16 459 000
+Chad: 15 971 000
+Somalia: 15 703 000
+Camboya: 15 442 000
+Zimbabue: 15 280 000
+Sudán del Sur: 13 032 000
+Ruanda: 12 531 000
+Guinea: 12 365 000
+Benín: 11 922 000
+Túnez: 11 763 000
+Haití: 11 663 000
+Bolivia: 11 553 000
+Bélgica: 11 471 000
+Cuba: 11 198 000
+Burundi: 11 111 000
+Jordania: 10 706 000
+República Checa: 10 685 000
+República Dominicana: 10 407 000
+Suecia: 10 333 000
+Portugal: 10 240 000
+Grecia: 10 203 000
+Azerbaiyán: 10 062 000
+Emiratos Árabes Unidos: 9 787 000
+Hungría: 9 760 000
+Bielorrusia: 9 456 000
+Tayikistán: 9 327 000
+Honduras: 9 234 000
+Israel: 8 991 000
+Austria: 8 915 000
+Papúa Nueva Guinea: 8 864 000
+Suiza: 8 608 000
+Sierra Leona: 8 029 000
+Togo: 7 642 000
+Paraguay: 7 204 000
+Laos: 7 183 000
+Bulgaria: 6 954 000
+Serbia: 6 885 000
+Libia: 6 824 000
+El Salvador: 6 736 000
+Líbano: 6 665 000
+Nicaragua 6 562 000
+Kirguistán: 6 520 000
+Turkmenistán: 5 980 000
+Dinamarca: 5 835 000
+Singapur: 5 727 000
+República Centroafricana: 5 558 000
+Finlandia: 5 528 000
+Eslovaquia: 5 455 000
+República del Congo: 5 435 000
+Noruega: 5 366 000
+Costa Rica: 5 086 000
+Nueva Zelanda: 5 025 000
+Irlanda: 4 968 000
+Omán: 4 679 000
+Liberia: 4 526 000
+Kuwait: 4 490 000
+Panamá: 4 250 000
+Mauritania: 4 124 000
+Croacia: 4 114 000
+Georgia: 3 722 000
+Uruguay: 3 525 000
+Eritrea: 3 523 000
+Bosnia y Herzegovina: 3 297 000
+Mongolia: 3 158 000
+Armenia: 2 956 000
+Albania: 2 851 000
+Lituania: 2 794 000
+Catar: 2 768 000
+Jamaica: 2 726 000
+Moldavia: 2 618 000
+Namibia: 2 483 000
+Gambia: 2 377 000
+Botsuana: 2 361 000
+Gabón: 2 201 000
+Eslovenia: 2 092 000
+Macedonia: 2 079 000
+Lesoto: 2 058 000
+Letonia: 1 908 000
+Guinea-Bisáu: 1 619 000
+Baréin: 1 581 000
+Guinea Ecuatorial: 1 430 000
+Timor Oriental: 1 408 000
+Trinidad y Tobago: 1 366 000
+Estonia: 1 328 000
+Mauricio: 1 268 000
+Suazilandia: 1 114 000
+Yibuti: 1 093 000
+Fiyi: 896 000
+Chipre: 885 000
+Comoras: 885 000
+Guyana: 786 000
+Bután: 746 000
+Islas Salomón: 691 000
+Luxemburgo: 627 000
+Montenegro: 623 000
+Surinam: 584 000
+Cabo Verde: 554 000
+Malta: 511 000
+Brunéi: 454 000
+Belice: 414 000
+Bahamas: 387 000
+Maldivas: 381 000
+Islandia: 365 000
+Vanuatu: 319 000
+Barbados: 287 000
+Santo Tomé y Príncipe: 209 000
+Samoa: 202 000
+Santa Lucía: 183 000
+Kiribati: 124 000
+Granada: 113 000
+San Vicente y las Granadinas: 111 000
+Micronesia: 105 000
+Tonga: 100 000
+Seychelles: 98 000
+Antigua y Barbuda: 97 000
+Andorra: 77 000
+Dominica: 72 000
+Islas Marshall: 56 000
+San Cristóbal y Nieves: 53 000
+Liechtenstein: 39 000
+Mónaco: 39 000
+San Marino: 34 000
+Palaos: 18 000
+Nauru: 11 000
+Tuvalu: 10 000
+Ciudad del Vaticano: 1000
