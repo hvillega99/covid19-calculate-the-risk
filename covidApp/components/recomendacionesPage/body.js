@@ -44,6 +44,7 @@ const Body = ({navigation}) => {
 
     return (
         <View style={styles.body}>
+            
             <ScrollView>
             <View style={styles.imageContainer}>
                 <Title title='Precauciones'/>

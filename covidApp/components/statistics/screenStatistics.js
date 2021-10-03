@@ -8,8 +8,9 @@ const ScreenStatistics = ({navigation}) => {
 
     return (
         <View>
-            <Title title="Estadísticas" />
+            
             <ScrollView>
+                <Title title="Estadísticas" />
                 <View style={styles.imageContainer}>
                     <Image
                     style={styles.image}
