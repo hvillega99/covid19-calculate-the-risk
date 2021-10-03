@@ -1,10 +1,13 @@
-import React from "react";
-import { View, Image, Dimensions, ScrollView, Text, StyleSheet } from "react-native";
+import React , { useState, useEffect } from "react";
+import {Platform, View, Image, Dimensions, ScrollView, Text, StyleSheet } from "react-native";
 import Title from "../title/title";
 import Line from "./lineChart";
 import Probability from "./progressChart";
 
+
+
 const ScreenStatistics = ({navigation}) => {
+    
 
     return (
         <View>
