@@ -4,6 +4,10 @@ import Title from '../title/title';
 import imagen from '../../assets/img/covid-landing-page.jpg';
 import Card from './card';
 
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+
+
 const datos = [
     {
         titulo: 'Estadistica',
@@ -53,10 +57,10 @@ const Body = () => {
 
 const styles = StyleSheet.create({
     body:{
-        width: "417px",
+        width: windowWidth,
     },
     image: {
-        width: "417px",
+        width: windowWidth,
         height: "270px",
         borderTopLeftRadius: 50,
         borderTopRightRadius: 50

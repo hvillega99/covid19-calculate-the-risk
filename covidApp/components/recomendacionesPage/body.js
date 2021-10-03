@@ -1,5 +1,5 @@
 import React from "react";
-import { View , Image, StyleSheet} from 'react-native';
+import { View , Image, StyleSheet, Dimensions} from 'react-native';
 import imagen from '../../assets/img/precauciones.jpg'
 import Title from "../title/title";
 import Card from "./Card";
@@ -32,6 +32,9 @@ const datos = [
     }
 ]
 
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+
 const Body = () => {
 
     return (
@@ -54,20 +57,25 @@ const Body = () => {
 
 const styles = StyleSheet.create({
     body:{
-        width: "417px",
+        width: windowWidth,
     },
     image: {
-        width: "417px",
+        width: windowWidth,
         height: "270px",
         borderTopLeftRadius: 50,
-        borderTopRightRadius: 50
+        borderTopRightRadius: 50,
     },
     imageContainer:{
         backgroundColor: '#29AEF2',
     },
     card:{
         flex:1,
-        flexDirection: "row"
+        flexDirection: "row",
+        flexWrap: "wrap",
+        marginLeft: 'auto',
+        marginRight: "auto",
+        marginTop: 30,
+        width: windowWidth/1.05,
     }
 });
 

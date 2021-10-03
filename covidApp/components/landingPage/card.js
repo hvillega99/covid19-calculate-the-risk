@@ -1,13 +1,16 @@
 import React from "react";
-import { View , Image, Text , StyleSheet , TouchableHighlight} from "react-native";
-import { borderRadius, justifyContent, margin } from "styled-system";
+import { View , Image, Text , StyleSheet , TouchableHighlight, Dimensions} from "react-native";
+import { borderRadius, justifyContent, margin, padding, style } from "styled-system";
+
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
 
 const Card = ({datos}) => {
     
     return(
         <TouchableHighlight>
             <View style={styles.card}>
-                <View >
+                <View style={styles.imagen}>
                     <Image
                         source={require(`../../assets/img/${datos.imagen}`)}
                         style={styles.icono}
@@ -31,8 +34,8 @@ const styles = StyleSheet.create({
     card:{
         flex: 1,
         flexDirection: "row",
-        width: '354px',
-        minHeight: '100px',
+        width: windowWidth/1.16,
+        minHeight: windowHeight/7,
         justifyContent: 'space-around',
         alignItems:'center',
         backgroundColor: '#fff',
@@ -44,8 +47,8 @@ const styles = StyleSheet.create({
     },
     icono:{
         paddingLeft: 5,
-        width: '42px',
-        height: '42px',
+        width: windowWidth/9,
+        height: windowWidth/9,
         borderRadius: 21,
     },
     textTitle:{
@@ -55,8 +58,12 @@ const styles = StyleSheet.create({
         fontSize: 14
     },
     text:{
-        maxWidth: 225,
-        minWidth: 225
+        width:  (windowWidth/1.16) - ((windowWidth/1.16)/3.61),
+        padding: 5
+    },
+    imagen:{
+        width:(windowWidth/1.16)/3.61 ,
+     
     }
 });
 export default Card;
