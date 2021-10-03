@@ -40,7 +40,7 @@ const datos = [
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
-const Body = () => {
+const Body = ({navigation}) => {
 
     return (
         <View style={styles.body}>
@@ -55,7 +55,7 @@ const Body = () => {
                 </View> 
             </View>
             <View style={styles.card}>
-                {datos.map( e => <Card datos={e}/>)}
+                {datos.map( e => <Card Key={e.key} datos={e}/>)}
             </View>
             </ScrollView>
         </View>

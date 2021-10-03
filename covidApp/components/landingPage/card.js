@@ -11,7 +11,7 @@ const Card = ({datos}) => {
 
     return(
             <View key={datos.key} style={{flex:1}}>
-            <TouchableOpacity>
+            <TouchableOpacity key={datos.key}>
                 <View style={styles.card} >
                     
                     <View style={styles.imagen}>

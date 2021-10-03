@@ -3,7 +3,7 @@ import { View, ScrollView, Image, StyleSheet, Dimensions, Text } from "react-nat
 import Title from "../title/title";
 import CardGrid from "./cardGrid";
 
-const ScreenNews = () =>{
+const ScreenNews = ({navigation}) =>{
     return (
         <View>
             <Title title="Noticias" />

@@ -4,7 +4,7 @@ import Title from "../title/title";
 import Line from "./lineChart";
 import Probability from "./progressChart";
 
-const ScreenStatistics = () => {
+const ScreenStatistics = ({navigation}) => {
 
     return (
         <View>
