@@ -39,13 +39,15 @@ const Body = () => {
 
     return (
         <View style={styles.body}>
-            <Title title='Precausiones'/>
             <View style={styles.imageContainer}>
-                <Image
-                    style={styles.image}
-                    source={imagen}
-                />
-            </View> 
+                <Title title='Precausiones'/>
+                <View style={styles.imageContainer}>
+                    <Image
+                        style={styles.image}
+                        source={imagen}
+                    />
+                </View> 
+            </View>
             <View style={styles.card}>
                 {datos.map( e => <Card datos={e}/>)}
             </View>

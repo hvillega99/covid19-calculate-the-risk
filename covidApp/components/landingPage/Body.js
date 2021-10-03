@@ -35,14 +35,16 @@ const Body = () => {
     
     return (
         <View style={styles.body}>
-            <Title title='FizeNet'/>
-            
             <View style={styles.imageContainer}>
-                <Image
-                style={styles.image}
-                source={imagen}
-                />
-            </View>   
+                <Title title='FizeNet'/>
+                
+                <View style={styles.imageContainer}>
+                    <Image
+                    style={styles.image}
+                    source={imagen}
+                    />
+                </View>   
+            </View>
             <ScrollView>
                 <View style={styles.cards}>
                     {
@@ -72,7 +74,7 @@ const styles = StyleSheet.create({
         flex:1,
         marginTop: 40,
         alignItems: 'center'
-        
+
     }
 });
 

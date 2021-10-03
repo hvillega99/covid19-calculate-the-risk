@@ -7,7 +7,7 @@ import BodyPrecauciones from './components/recomendacionesPage/body'
 //import ScreenStatistics from './components/statistics/screenStatistics';
 export default function App() {
   return (
-    <Body/> 
+    <BodyPrecauciones/> 
   );
   }
 
