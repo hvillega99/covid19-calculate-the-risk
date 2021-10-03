@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     },
     image: {
         width: windowWidth,
-        height: "270px",
+        height: 270,
         borderTopLeftRadius: 50,
         borderTopRightRadius: 50,
     },
