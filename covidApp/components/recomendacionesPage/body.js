@@ -73,8 +73,8 @@ const styles = StyleSheet.create({
     image: {
         width: windowWidth,
         height: 270,
-        borderTopLeftRadius: 50,
-        borderTopRightRadius: 50,
+        borderTopLeftRadius: 20,
+        borderTopRightRadius: 20,
     },
     imageContainer:{
         backgroundColor: '#29AEF2',

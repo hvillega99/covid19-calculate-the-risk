@@ -43,8 +43,9 @@ const styles = StyleSheet.create({
         padding: 5,
         alignItems:"center",
         justifyContent: "space-between",
-        borderWidth: 0.15,
+        borderWidth: 1,
         borderRadius: 5,
+        backgroundColor: "#fff",
         borderColor: '#9b9b9b'
     },
     imagen:{
