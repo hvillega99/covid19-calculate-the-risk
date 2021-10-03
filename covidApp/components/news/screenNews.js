@@ -1,6 +1,7 @@
 import React from "react";
-import { View, ScrollView, Image, StyleSheet, Text } from "react-native";
+import { View, ScrollView, Image, StyleSheet, Dimensions, Text } from "react-native";
 import Title from "../title/title";
+import CardGrid from "./cardGrid";
 
 const ScreenNews = () =>{
     return (
@@ -13,7 +14,7 @@ const ScreenNews = () =>{
                         source={require("../../assets/img/news.png")}
                     />
                 </View>
-                
+                <CardGrid />
             </ScrollView> 
         </View>
     );
@@ -23,13 +24,13 @@ export default ScreenNews;
 
 const styles = StyleSheet.create({
     image: {
-        width: "417px",
-        height: "270px",
-        borderRadius: 5
+        width: Dimensions.get('window').width,
+        height: 270 + "px",
+        borderRadius: 20
     },
 
     imageContainer: {
+        width: Dimensions.get('window').width,
         backgroundColor: "#29AEF2"
     }
-
 });

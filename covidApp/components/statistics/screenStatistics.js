@@ -60,7 +60,9 @@ const styles = StyleSheet.create({
         borderRadius: 16,
         margin: 10,
         padding: 10,
-        textAlign: "center"
+        textAlign: "center",
+        borderRadius: 10,
+        borderWidth: 0.05,
     },
 
     image: {
@@ -70,6 +72,7 @@ const styles = StyleSheet.create({
     },
 
     imageContainer: {
+        width: Dimensions.get('window').width,
         backgroundColor: "#29AEF2"
     },
 

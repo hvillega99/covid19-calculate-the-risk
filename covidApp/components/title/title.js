@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
 
     titleContainer: {
         backgroundColor: "#29AEF2",
-        width: Dimensions.get('window').width-1,
+        width: Dimensions.get('window').width,
         height: "75px"
     },
 
