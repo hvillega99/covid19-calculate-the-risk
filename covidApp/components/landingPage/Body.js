@@ -47,7 +47,7 @@ const Body = ({navigation}) => {
             
                 <View style={styles.cards}>
                     {
-                        datos.map( e => <Card key={e.key} datos={e}/>)
+                        datos.map( e => <Card key={e.key} datos={e} navigation={navigation}/>)
                     }
                 </View>
             </ScrollView> 
