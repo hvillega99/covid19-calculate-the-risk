@@ -10,24 +10,22 @@ const windowHeight = Dimensions.get('window').height;
 
 const datos = [
     {
+        key: 1,
         titulo: 'Estadistica',
         descripcion: 'Conoce la cantidad de casos,\nrecuperados y muertes',
-        imagen: 'estadistica_adobespark.png',
+        imagen: 'https://thumbs.dreamstime.com/b/lightning-circle-as-vector-illustration-177435842.jpg',
     },
     {
-        titulo: 'Clima',
-        descripcion: 'Conoce el clima de tu localizacion\nactual',
-        imagen: 'clima_adobespark.png',
-    },
-    {
+        key:2,
         titulo: 'Noticias',
         descripcion: 'Conoce nuevas noticias sobre el\nCovid-19',
-        imagen: 'noticias_adobespark.png',
+        imagen: 'https://andresgutierrez.com/wp-content/uploads/2020/11/iconos-preguntas-05.png',
     },
     {
+        key:3,
         titulo: 'Precauiones',
         descripcion: 'Conoce las recomendacioces de los doctores\npara prevenir el contagio',
-        imagen: 'precauciones_adobespark.png',
+        imagen: 'https://us.123rf.com/450wm/alexwhite/alexwhite1503/alexwhite150304998/38144612-signo-de-exclamaci%C3%B3n-icono-plana-se%C3%B1al-de-advertencia.jpg?ver=6',
     },
 ]
 
@@ -35,24 +33,24 @@ const Body = () => {
     
     return (
         <View style={styles.body}>
-            <View style={styles.imageContainer}>
-                <Title title='FizeNet'/>
-                
-                <View style={styles.imageContainer}>
-                    <Image
-                    style={styles.image}
-                    source={imagen}
-                    />
-                </View>   
-            </View>
             <ScrollView>
+                <View style={styles.imageContainer}>
+                    <Title title='FizeNet'/>
+                    
+                    <View style={styles.imageContainer}>
+                        <Image
+                        style={styles.image}
+                        source={imagen}
+                        />
+                    </View>   
+                </View>
+            
                 <View style={styles.cards}>
                     {
                         datos.map( e => <Card datos={e}/>)
                     }
                 </View>
-            </ScrollView>
-            
+            </ScrollView> 
         </View>
     );
 }
@@ -63,7 +61,7 @@ const styles = StyleSheet.create({
     },
     image: {
         width: windowWidth,
-        height: "270px",
+        height: 270,
         borderTopLeftRadius: 50,
         borderTopRightRadius: 50
     },
@@ -72,7 +70,7 @@ const styles = StyleSheet.create({
     },
     cards:{
         flex:1,
-        marginTop: 40,
+        marginTop: 20,
         alignItems: 'center'
 
     }

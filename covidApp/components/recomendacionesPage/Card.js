@@ -7,12 +7,12 @@ const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const Card = ({datos}) => {
-
+    
     return(
-        <View style={styles.card}>
+        <View style={styles.card} key={datos.key}>
             <View style={styles.magenDiv}>
                 <Image
-                    source={require(`../../assets/img/${datos.imagen}`)}
+                    source={{uri: datos.imagen}}
                     style={styles.imagen}
                 />
             </View>
@@ -32,9 +32,9 @@ const styles = StyleSheet.create({
     card:{
         flexGrow:0,
         flex: 1,
-        minWidth: windowWidth/3.5,
-        minHeight: windowHeight/3.5,
-        maxWidth: windowWidth/2.9,
+        minWidth: windowWidth/2.5,
+        minHeight: windowHeight/3,
+        maxWidth: windowWidth/2,
         //maxHeight: windowHeight/3.5,
         marginLeft: "auto",
         marginRight: "auto",
@@ -43,8 +43,8 @@ const styles = StyleSheet.create({
         padding: 5,
         alignItems:"center",
         justifyContent: "space-between",
-        borderWidth: 0.025,
-        borderRadius: 10,
+        borderWidth: 0.15,
+        borderRadius: 5,
         borderColor: '#9b9b9b'
     },
     imagen:{
@@ -56,12 +56,12 @@ const styles = StyleSheet.create({
     },
     textTitle:{
         fontSize: windowWidth/25,
-        fontFamily:"italy",
+        fontFamily:"normal",
         textAlign: "center"
     },
     textDescription:{
         fontSize: windowWidth/30,
-        fontFamily: "italy",
+        fontFamily: "normal",
         textAlign: "center"
     },
     text:{

@@ -1,6 +1,5 @@
 import React from "react";
 import { View, Image, Dimensions, ScrollView, Text, StyleSheet } from "react-native";
-import { fontFamily, padding, textAlign } from "styled-system";
 import Title from "../title/title";
 import Line from "./lineChart";
 import Probability from "./progressChart";
@@ -55,21 +54,24 @@ const styles = StyleSheet.create({
 
     card:{
         height: 85,
-        width: 45 + "%",
+        width: 0.45*Dimensions.get('window').width,
         backgroundColor: "#ECF0F1",
         borderRadius: 16,
         margin: 10,
         padding: 10,
-        textAlign: "center"
+        textAlign: "center",
+        borderRadius: 10,
+        borderWidth: 0.05,
     },
 
     image: {
         width: Dimensions.get('window').width,
-        height: 270 + "px",
+        height: 270,
         borderRadius: 20
     },
 
     imageContainer: {
+        width: Dimensions.get('window').width,
         backgroundColor: "#29AEF2"
     },
 

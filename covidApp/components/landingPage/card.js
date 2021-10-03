@@ -1,31 +1,36 @@
 import React from "react";
-import { View , Image, Text , StyleSheet , TouchableHighlight, Dimensions} from "react-native";
+import { View , Image, Text , StyleSheet , TouchableOpacity, Dimensions} from "react-native";
 import { borderRadius, justifyContent, margin, padding, style } from "styled-system";
+
+
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const Card = ({datos}) => {
-    
+
     return(
-        <TouchableHighlight>
-            <View style={styles.card}>
-                <View style={styles.imagen}>
-                    <Image
-                        source={require(`../../assets/img/${datos.imagen}`)}
-                        style={styles.icono}
-                    />
+            <View key={datos.key} style={{flex:1}}>
+            <TouchableOpacity>
+                <View style={styles.card} >
+                    
+                    <View style={styles.imagen}>
+                        <Image
+                            source={{uri: datos.imagen}}
+                            style={styles.icono}
+                        />
+                    </View>
+                    <View style={styles.text}>
+                        <Text style={styles.textTitle}>
+                            {datos.titulo}
+                        </Text>
+                        <Text style={styles.textDescription}>
+                            {datos.descripcion}
+                        </Text>
+                    </View>
                 </View>
-                <View style={styles.text}>
-                    <Text style={styles.textTitle}>
-                        {datos.titulo}
-                    </Text>
-                    <Text style={styles.textDescription}>
-                        {datos.descripcion}
-                    </Text>
-                </View>
+            </TouchableOpacity>
             </View>
-        </TouchableHighlight>
         
     );
 }
@@ -34,21 +39,21 @@ const styles = StyleSheet.create({
     card:{
         flex: 1,
         flexDirection: "row",
-        width: windowWidth/1.16,
+        width: windowWidth/1.05,
         minHeight: windowHeight/7,
         justifyContent: 'space-around',
         alignItems:'center',
         backgroundColor: '#fff',
-        borderRadius: 10,
-        borderWidth: 0.05,
+        borderRadius: 5,
+        borderWidth: 0.15,
         marginBottom: 10,
         borderColor: '#9b9b9b'
 
     },
     icono:{
         paddingLeft: 5,
-        width: windowWidth/9,
-        height: windowWidth/9,
+        width: windowWidth/5,
+        height: windowWidth/5,
         borderRadius: 21,
     },
     textTitle:{
@@ -62,8 +67,8 @@ const styles = StyleSheet.create({
         padding: 5
     },
     imagen:{
-        width:(windowWidth/1.16)/3.61 ,
-     
+        width:(windowWidth/1.16)/3.25 ,
+        alignItems:"center"
     }
 });
 export default Card;
