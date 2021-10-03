@@ -7,7 +7,6 @@ import { View,
         Linking, 
         TouchableOpacity
         } from "react-native";
-import { height, padding } from "styled-system";
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;

@@ -6,17 +6,17 @@ import Card from "./Card";
 
 const datos = [
     {
-        titulo: 'Usa Máscarilla',
+        titulo: 'Usa Mascarilla',
         descripcion: 'en lugares públicos y\nespacios cerrados',
         imagen: 'mascarilla.png'
     },
     {
         titulo: 'Lava tus manos',
-        descripcion: 'con agua y jabos o\nusa desinfectante',
+        descripcion: 'con agua y jabón o\nusa desinfectante',
         imagen: 'lavar-mano.png'
     },
     {
-        titulo: 'Cubrete',
+        titulo: 'Cúbrete',
         decripcion: 'Al toser o estornudar',
         imagen: 'cubrirse.png'
     },
@@ -26,7 +26,7 @@ const datos = [
         imagen: 'distanciamiento_banner.png'
     },
     {
-        titulo: 'Vacunate',
+        titulo: 'Vacúnate',
         descripcion: 'las dosis completas',
         imagen: 'vacunat.png'
     }
@@ -40,7 +40,7 @@ const Body = () => {
     return (
         <View style={styles.body}>
             <View style={styles.imageContainer}>
-                <Title title='Precausiones'/>
+                <Title title='Precauciones'/>
                 <View style={styles.imageContainer}>
                     <Image
                         style={styles.image}
