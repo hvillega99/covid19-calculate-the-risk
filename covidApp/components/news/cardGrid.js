@@ -6,11 +6,11 @@ const CardGrid = () => {
     return (
         <View style={styles.container}>
             <NewsCard 
-                title="Reos se subieron al techo" 
-                url= "https://www.eluniverso.com/guayaquil/comunidad/se-registran-disturbios-en-la-carcel-regional-de-guayaquil-la-manana-de-este-sabado-2-de-octubre-nota/?modulo=destacadas-uno&plantilla=home"
+                title="Ecuador no dará certificado de vacunación a quienes se inocularon contra el COVID-19 en el exterior" 
+                url= "https://www.eluniverso.com/noticias/informes/ecuador-no-dara-certificado-de-vacunacion-a-quienes-se-inocularon-contra-el-covid-19-en-el-exterior-nota/"
                 src="El Universo"
-                img="https://www.eluniverso.com/resizer/pG8G-XJOJ-oYlpd3CJK36RiAcdM=/1005x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/MZRWUA3CWFGQHBZFYUMM3DH7KY.JPG"
-                date="2 de octubre, 2021"
+                img="https://www.eluniverso.com/resizer/jKoS4y_uCu70QRO4Ke1s-rmtEs0=/1005x670/smart/filters:quality(70)/cloudfront-us-east-1.images.arcpublishing.com/eluniverso/CGQWY5C5VLS7S457CK2X2X7LDU.jpg"
+                date="30 de septiembre, 2021"
             />
         </View>
     );
@@ -23,6 +23,6 @@ const styles = StyleSheet.create({
         flex: 1,
         flexDirection: "column",
         alignContent: "center",
-        justifyContent: "flex-start"
+        justifyContent: "center"
     }
 });

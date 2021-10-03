@@ -20,7 +20,7 @@ const Line = ({data, labels}) =>{
                 data={line}
                 width={Dimensions.get('window').width} // from react-native
                 height={220}
-                yAxisLabel={'$'}
+                yAxisLabel={''}
                 chartConfig={{
                     backgroundColor: '#E5E5E5',
                     backgroundGradientFrom: '#66CC99',

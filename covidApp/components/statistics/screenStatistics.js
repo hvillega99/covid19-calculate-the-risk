@@ -35,7 +35,7 @@ const ScreenStatistics = ({navigation}) => {
                 <Text style={styles.titleSection}>Tendencia de contagios</Text>
                 <Line 
                     data={[20, 45, 28, 80, 99, 43]}
-                    labels={['January', 'February', 'March', 'April', 'May', 'June']}
+                    labels={['28/09', '29/09', '30/09', '01/10', '02/10', '03/10']}
                 />
             </ScrollView>
         </View>

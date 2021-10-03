@@ -18,7 +18,7 @@ const NewsCard = ({title, url, src, img, date}) => {
 
     return (
         <View style={styles.card}>
-            <View>
+            <View style={styles.textContent}>
                 <TouchableOpacity onPress={handlePress}>
                     <Text style={[{fontSize: 20, marginBottom: 12}, styles.text]}>{title}</Text>
                     <Text style={[{fontSize: 14}, styles.text]}>{src} - {date}</Text>
@@ -38,12 +38,12 @@ const styles = StyleSheet.create({
     card: {
         flex: 1,
         flexDirection: "row",
-        width: windowWidth,
+        minWidth: windowWidth/1.05,
         justifyContent: 'space-between',
         alignItems:'center',
         backgroundColor: '#fff',
-        borderRadius: 10,
-        borderWidth: 0.05,
+        borderRadius: 5,
+        borderWidth: 0.5,
         marginBottom: 10,
         marginTop: 10,
         borderColor: '#9b9b9b',
@@ -53,9 +53,13 @@ const styles = StyleSheet.create({
     image: {
         height: windowHeight/8,
         width: windowWidth/3,
-        borderRadius: 15
+        borderRadius: 15,
+        alignItems:"center",
+        justifyContent:"center"
     },
-
+    textContent:{
+        width: (windowWidth/1.16) - ((windowWidth/1.16)/3.61),
+    },
     text: {
         flex:1, 
         flexWrap:"wrap",
