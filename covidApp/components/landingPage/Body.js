@@ -30,7 +30,7 @@ const datos = [
 ]
 
 const Body = ({navigation}) => {
-    
+    console.log("Hola Mundo");
     return (
         <View style={styles.body}>
             <ScrollView>

@@ -10,7 +10,9 @@
   "dependencies": {
     "@react-navigation/native": "^6.0.4",
     "@react-navigation/native-stack": "^6.2.2",
+    "axios": "^0.22.0",
     "expo": "~42.0.1",
+    "expo-location": "~12.1.2",
     "expo-status-bar": "~1.0.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -21,8 +23,7 @@
     "react-native-svg": "12.1.1",
     "react-native-web": "~0.13.12",
     "styled-components": "^5.3.1",
-    "styled-system": "^5.1.5",
-    "expo-location": "~12.1.2"
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0"
