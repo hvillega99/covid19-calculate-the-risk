@@ -10,7 +10,6 @@
   "dependencies": {
     "@react-navigation/native": "^6.0.4",
     "@react-navigation/native-stack": "^6.2.2",
-    "axios": "^0.22.0",
     "expo": "~42.0.1",
     "expo-location": "~12.1.2",
     "expo-status-bar": "~1.0.4",

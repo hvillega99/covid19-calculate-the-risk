@@ -3,13 +3,12 @@ import {Platform, View, Image, Dimensions, ScrollView, Text, StyleSheet } from "
 import Title from "../title/title";
 import Line from "./lineChart";
 import Probability from "./progressChart";
-import axios from 'axios';
-
 
 
 const ScreenStatistics = ({navigation}) => {
     
-    const url = "http://127.0.0.1:3000/covid-data/Ecuador/Guayas";
+    const ENDPOIINT = "https://8cf5-190-83-104-114.ngrok.io"
+    const url = `${ENDPOIINT}/covid-data/Ecuador/Guayas`;
     const [muertes , setMuertes] = useState('');
     const [contagios , setContagios] = useState('');
     const [confirmadosNacional , setConfirmadosNacional] = useState("");
@@ -32,14 +31,14 @@ const ScreenStatistics = ({navigation}) => {
                 return aux
             });  
 
-            const response2 = await fetch("http://127.0.0.1:3000/covid-data/Ecuador");
+            const response2 = await fetch(`${ENDPOIINT}/covid-data/Ecuador`);
             const data2 = await response2.json()
             
             console.log("Confimados a nivel nacional:" , data2[0].Confirmed);
 
             setConfirmadosNacional(data2[0].Confirmed);
 
-            const response3 = await fetch("http://127.0.0.1:3000/population/Ecuador");
+            const response3 = await fetch(`${ENDPOIINT}/population/Ecuador`);
             const data3 = await response3.json();
             console.log("poblacion: ", data3.poblacion);
             setPoblacion(data3.poblacion);
